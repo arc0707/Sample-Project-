@@ -1,0 +1,98 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+	font-family: 'open-sans',sans-serif,Tahoma;
+}
+.main-container{margin-right:-8px;margin-left:-8px;}.nav{list-style:none;}.container-nav{width:95%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.container-nav:before,.container-nav:after{content:" ";display:table}
+.container-nav:after{clear:both}
+.container-nav{max-width:1200px}
+.navbar{position:relative;max-height:85px;margin-bottom:0;border:1px solid transparent}
+.navbar:before,.navbar:after{content:" ";display:table}
+.navbar:after{clear:both}
+.navbar-header{	margin-left:20px;}
+.navbar-header:before,.navbar-header:after{content:" ";display:table}
+.navbar-header:after{clear:both}
+@media(min-width:768px){.navbar-collapse{width:auto;border-top:0;box-shadow:none}
+.navbar-collapse.collapse{display:block !important;height:auto !important;padding-bottom:0;overflow:visible !important}
+.navbar-collapse.in{overflow-y:visible}
+.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{padding-left:0;padding-right:0}}.navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{max-height:340px}
+@media(max-device-width:480px) and (orientation:landscape){.navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{max-height:200px}}
+.navbar-logo{float:left;padding:15px 15px;font-size:18px;line-height:20px;height:50px}
+.navbar-logo:hover,.navbar-logo:focus{text-decoration:none}
+.navbar-logo>img{display:block}
+@media(min-width:768px){.navbar>.container .navbar-logo,.navbar>.container-nav .navbar-logo{margin-left:-15px}}
+.navbar-toggle{position:relative;float:right;margin-right:15px;padding:9px 10px;margin-top:8px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:0}
+.navbar-toggle:focus{outline:0}
+@media(min-width:768px){.navbar-toggle{display:none}}.navbar-nav{margin:7.5px -15px; }.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:20px}
+@media(max-width:767px){.navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;box-shadow:none}
+.navbar-nav .open .dropdown-menu>li>a,.navbar-nav .open .dropdown-menu .dropdown-header{padding:5px 15px 5px 25px}
+.navbar-nav .open .dropdown-menu>li>a{line-height:20px}
+.navbar-nav .open .dropdown-menu>li>a:hover,.navbar-nav .open .dropdown-menu>li>a:focus{background-image:none}}
+.separator{margin-top:-18px;} .search-btn{margin-top:15px;}
+.search_button{border:none;cursor: pointer;margin-top:-18px;margin-right:5px;}
+@media(min-width:768px){.navbar-nav{float:left;margin:0}}
+.navbar-nav>li{float:left}
+.navbar-nav>li>a{padding-top:15px;padding-bottom:15px}
+.navbar-nav>li>.dropdown-menu{margin-top:0;border-top-right-radius:0;border-top-left-radius:0}
+.default-navbar{margin-right:-8px, margin-left: -8px; margin-top: -8px;border-width:1px 0;background:#1a1e5a;background:-webkit-gradient(linear,left bottom,right top,color-stop(0,#1a1e5a),color-stop(100%,#122d98));background:-webkit-linear-gradient(45deg,#1a1e5a 0,#122d98 100%);background:linear-gradient(45deg,#1a1e5a 0,#122d98 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1A1E5A',endColorstr='#FF122D98',GradientType=1)}
+.default-navbar .container-nav{width:100%}
+.default-navbar a:focus{outline:0 !important}
+.default-navbar a.navbar-logo:focus{outline:.1rem dotted #b9b9b9 !important}
+.default-navbar button.toggle-search:focus{outline:1px dotted white}
+.default-navbar .nav>li>a{color:#1a1f71}
+.default-navbar .nav>li>a:hover,.default-navbar .nav>li>a:focus{outline:0}
+.default-navbar .navbar-logo{margin-top:1rem;padding:1.2rem 1.5rem 0}
+.default-navbar .comp-logo{height:25px}
+.default-navbar button{background:0}
+.default-navbar .line{display:inline-block;width:1px;height:25px;position:relative;top:-3px;background-color:rgba(255,255,255,0.25)}
+.default-navbar .navbar-toggle{padding:1.2rem 1rem .6rem;margin-top:5px;margin-bottom:4px}
+.default-navbar .navbar-toggle button{font-size:3rem;line-height:1;padding:0;margin-left:1rem}
+.default-navbar .navbar-toggle .line{margin-left:1rem}
+.default-navbar .navbar-toggle .toggle-menu{color:#fff}
+.default-navbar .navbar-toggle .toggle-search{color:#f7b600}
+.dropdown-nav{position:relative}
+.default-navbar span.staticText{font-size:1.8rem;color:#1a1f71;font-weight:400}
+.default-navbar ul.navbar-nav-desktop li{font-size:1.2rem}
+@media screen and (max-width:767px){.default-navbar span.staticText{font-size:1.2rem}
+.default-navbar .navbar-collapse{background:#fff;margin-top:.5rem;position:absolute;width:100%;z-index:20010}
+.default-navbar .navbar-search-form{background-color:#fff}
+.default-navbar .navbar-search-form .btn-clear{width:auto}}
+@media screen and (min-width:768px){.default-navbar span.staticText{font-size:1.2rem}
+.default-navbar .nav>li{position:static}
+.default-navbar .nav>li>a:hover,.default-navbar .nav>li>a:focus{color:#1a1f71}
+.default-navbar .nav>li .divider{height:1px;margin:9px 0;overflow:hidden;background-color:#dedede;margin:0 0 2rem;padding:0;width:66%}
+.default-navbar .navbar-nav{float:right;padding-top:.5rem;padding-bottom:.5rem}
+.default-navbar .navbar-nav>li>a{color:rgba(255,255,255,0.85);padding-right:.9rem;padding-left:.9rem}
+.default-navbar .navbar-nav>li>a:hover,.default-navbar .navbar-nav>li>a:focus{color:#f7b600;text-decoration:none}
+.default-navbar .navbar-nav>li>a.active,.default-navbar .navbar-nav>li>a.active:hover,.default-navbar .navbar-nav>li>a.active:focus{color:#f7b600}
+.default-navbar .navbar-nav>li>a.navActive,.default-navbar .navbar-nav>li>a.navActive:hover,.default-navbar .navbar-nav>li>a.navActive:focus{color:#f7b600}
+.default-navbar .navbar-nav .search-nav-item{position:relative;padding-top:.8rem;line-height:1rem}
+.default-navbar .navbar-nav button.toggle-search{padding:0;display:inline-block;position:relative;top:-4px}
+.default-navbar .navbar-nav .line{position:static;margin-left:1rem;margin-right:1.5rem;height:3.3rem}
+.default-navbar>.container-nav .navbar-logo{margin-left:0;margin-top:.5rem}
+.default-navbar .comp-logo{height:2.5rem}
+.navborder{height:4px}}
+@media screen and (min-width:992px){header .container-nav{padding-left:2rem;padding-right:2rem}
+.default-navbar .navbar-nav{font-size:1.8rem;padding-top:.9rem;padding-bottom:.9rem}
+.default-navbar .navbar-nav>li>a{padding-left:1.5rem;padding-right:1.5rem}
+.default-navbar .navbar-nav .search-nav-item{padding-top:.4rem}
+.default-navbar .navbar-nav button.toggle-search{top:-5px}
+.default-navbar .navbar-nav .line{margin-left:1rem;margin-right:2.5rem;height:4.1rem}
+.default-navbar>.container-nav .navbar-logo{margin-top:.9rem;padding-top:.9rem}
+.default-navbar .comp-logo{height:3.2rem}}
+@media screen and (min-width:1200px){.default-navbar ul.navbar-nav-desktop li{font-size:1.7rem}
+header .container-nav{padding-left:1.5rem;padding-right:1.5rem}
+.default-navbar span.staticText{font-size:1.8rem}
+.default-navbar .navbar-nav{font-size:2rem;padding-top:1.8rem;padding-bottom:1.8rem}
+.default-navbar .navbar-nav>li>a{padding-left:2rem;padding-right:2rem}
+.default-navbar .navbar-nav .search-nav-item{padding-top:.2rem}
+.default-navbar .navbar-nav button.toggle-search{top:-1px}
+.default-navbar .navbar-nav .line{margin-left:1.5rem;margin-right:3rem;height:4.5rem}
+.default-navbar>.container-nav .navbar-logo{margin-top:1.8rem;padding-top:.5rem}
+.default-navbar .comp-logo{height:4rem}
+.navborder_custom:{background-position: 2500px 0px;}
+.navborder{height:3.5px;z-index:3;display:block;width:100%;position:relative;bottom:0}
+.navborder .nav-border-bar{position:absolute;top:0;width:100%;height:100%;-webkit-transition:1s;transition:1s;background:url(https://usa.visa.com/etc/designs/rvcom/images/global-nav-indicator-bar.jpg) 2500px 0}
+.navborder .nav-line{position:absolute;top:-15px;width:30px;height:10px;margin-left:-15px;display:none;z-index:10;-webkit-transition:1s;transition:1s}
+.navborder .nav-line img{width:auto;height:100%}
+@media(min-width:992px){.container-nav{width:85%}}@media(min-width:768px){.navbar{border-radius:0}}@media(min-width:768px){.navbar-header{float:left}}
